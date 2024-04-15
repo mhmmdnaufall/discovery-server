@@ -1,0 +1,7 @@
+server:
+  port: 8761
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://zipkin-microservice:9411
